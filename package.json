@@ -1,0 +1,19 @@
+{
+  "name": "black-audio-video-api",
+  "version": "1.0.0",
+  "description": "Convert audio (mp3/any) to black-screen MP4 video via HTTP API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "1.4.5-lts.1",
+    "axios": "^1.7.2",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "uuid": "^9.0.1"
+  }
+}
